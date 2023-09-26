@@ -42,17 +42,36 @@
   display: block;
 }
 .wrapper__inp__btn {
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 .inp {
-  width: 40%;
+  width: 25%;
   height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 30px;
-  border: 1 solid #e9ecf3;
+  border: 2px solid #e0e5f7;
+}
+.wrapper__btn {
+  padding-left: 14px;
 }
 .btn {
   width: 140px;
   height: 45px;
+  font-weight: 700;
   border-radius: 30px;
+  border: none;
+  background-color: #4d7bf3;
+  color: white;
+}
+.wrapper__img {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+img {
+  width: 50%;
+  height: 50%;
 }
