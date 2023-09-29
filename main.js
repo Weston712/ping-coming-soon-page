@@ -1,11 +1,13 @@
-const inpEmail = document.querySelector(".inp");
-const btnNotify = document.querySelector(".btn");
+let inpEmail = document.querySelector(".inp");
+let btnNotify = document.querySelector(".btn");
 
 btnNotify.addEventListener("click", () => {
   let inpValue = inpEmail.value;
   console.log(onInput(inpValue));
-  if (onInput(inpValue)) {
-    
+  if (!onInput(inpValue)) {
+    console.log("No");
+  } else {
+    console.log("YES");
   }
 });
 

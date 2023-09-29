@@ -53,8 +53,15 @@
   padding-right: 20px;
   border-radius: 30px;
   font-size: 20px;
-  border: 2px solid #e0e5f7;
+  border: 2px solid;
+  border-color: #e0e5f7;
+  outline: #497bf1;
 }
+
+.inp:valid {
+  border-color: #e0e5f7;
+}
+
 ::-webkit-input-placeholder {
   color: #e0e5f7;
 }
