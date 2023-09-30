@@ -1,13 +1,16 @@
 let inpEmail = document.querySelector(".inp");
 let btnNotify = document.querySelector(".btn");
+let error = document.querySelector(".span__error");
 
 btnNotify.addEventListener("click", () => {
   let inpValue = inpEmail.value;
   console.log(onInput(inpValue));
   if (!onInput(inpValue)) {
-    console.log("No");
+    inpEmail.classList.add("inp__error");
+    error.classList.add("span__error__active");
   } else {
-    console.log("YES");
+    error.classList.remove("span__error__active");
+    inpEmail.classList.remove("inp__error");
   }
 });
 

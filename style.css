@@ -42,28 +42,38 @@
   display: block;
 }
 .wrapper__inp__btn {
-  margin-top: 40px;
   display: flex;
+  margin-top: 40px;
   justify-content: center;
 }
+
 .inp {
-  width: 25%;
+  width: 100%;
   height: 45px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 30px;
-  font-size: 20px;
-  border: 2px solid;
-  border-color: #e0e5f7;
-  outline: #497bf1;
+  font-weight: 300;
+  font-size: medium;
+  border: 1px solid #e0e5f7;
+  outline: #e0e5f7;
 }
-
-.inp:valid {
-  border-color: #e0e5f7;
+.inp__error {
+  border-color: red;
 }
 
 ::-webkit-input-placeholder {
   color: #e0e5f7;
+}
+.span__error {
+  font-weight: 300;
+  font-style: italic;
+  display: none;
+  margin-top: 12px;
+  color: hsl(354, 100%, 66%);
+}
+.span__error__active {
+  display: block;
 }
 .wrapper__btn {
   padding-left: 14px;
