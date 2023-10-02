@@ -61,6 +61,9 @@
 .inp__error {
   border-color: red;
 }
+.inp__active {
+  border-color: green;
+}
 
 ::-webkit-input-placeholder {
   color: #e0e5f7;
@@ -126,6 +129,7 @@ img {
 }
 .footer__text {
   color: #a9a9a9;
+  font-size: small;
 }
 
 @media (max-width: 1005px) {
@@ -178,5 +182,8 @@ img {
   }
   img {
     width: 80%;
+  }
+  .footer__text {
+    font-weight: 300;
   }
 }

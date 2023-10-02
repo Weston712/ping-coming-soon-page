@@ -11,6 +11,7 @@ btnNotify.addEventListener("click", () => {
   } else {
     error.classList.remove("span__error__active");
     inpEmail.classList.remove("inp__error");
+    inpEmail.classList.add("inp__active");
   }
 });
 
