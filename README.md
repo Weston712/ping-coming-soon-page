@@ -1,4 +1,4 @@
-# Interactive rating component
+# Ping single column coming soon page
 ___
 
 ![png](/images/image__1.png)
